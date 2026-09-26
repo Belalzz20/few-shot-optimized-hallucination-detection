@@ -452,21 +452,6 @@ The current system has several limitations:
 6. The verifier operates within a maximum input length of 512 tokens.
 7. The current work does not claim universal robustness against every type of hallucination or deployment environment.
 
----
-
-## Research Paper
-
-The detection component is described in:
-
-**Improving Hallucination Detection via Question-Aware Knowledge Summarization**
-
-**Authors**
-
-* Abdelrahman Mohamed
-* Belal Hesham
-* Ebtesam E. Shemis
-
-The paper studies whether question-aware evidence compression can improve hallucination detection by increasing the signal-to-noise ratio of verifier inputs.
 
 ---
 
@@ -480,11 +465,8 @@ This repository is part of the graduation project:
 
 * Abdelrahman Mohamed
 * Belal Hesham
-
-**Supervisor**
-
-* Dr. Ebtsam El-Hosseiny
-
+* Ebtesam E. Shemis
+  
 **Institution**
 
 October University for Modern Sciences and Arts (MSA)
