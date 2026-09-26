@@ -26,7 +26,34 @@ The verifier predicts one of two classes:
 The main idea is that hallucination detection is not only a classifier problem. Long knowledge passages often contain irrelevant information that can distract the verifier. Therefore, the framework optionally compresses the knowledge passage using a question-aware summarization model before performing verification.
 
 ---
+## 📄 Research Paper
 
+### Improving Hallucination Detection via Question-Aware Knowledge Summarization
+
+This repository accompanies our research work on improving hallucination detection
+in knowledge-grounded question answering through question-aware knowledge
+summarization.
+
+The paper has been **accepted for presentation at the 10th International
+Conference on Information Technology (InCIT 2026)** and is eligible for
+publication in the **IEEE Conference Proceedings**, subject to completion of
+the required conference and IEEE publication procedures.
+
+**Authors:**
+- Abdelrahman Mohamed
+- Belal Hesham
+- Ebtesam E. Shemis
+
+📄 **Paper:** [`Improving_Hallucination_Detection.pdf`](./paper/Improving_Hallucination_Detection.pdf)
+
+> **Publication status:** Accepted for presentation at InCIT 2026.
+> IEEE Conference Proceedings publication is subject to completion of the
+> required publication procedures.
+
+The paper presents the proposed hallucination detection framework, experimental
+evaluation, ablation studies, and analysis of question-aware knowledge
+summarization for reducing irrelevant context while preserving information
+needed for factual verification.
 ## Key Idea
 
 The verification pipeline can be represented as:
@@ -484,9 +511,17 @@ Abdelrahman Mohamed, Belal Hesham, and Ebtesam E. Shemis.
 This work builds upon publicly available datasets and pretrained models from the NLP research community, including HaluEval, HotpotQA, DeBERTa-v3, FLAN-T5, BART, and PEGASUS.
 
 ---
+## 📜 License
 
-## License
+Copyright (c) 2026 Belal Hesham, Abdelrahman Mohamed, and Ebtesam E. Shemis.
 
-No project-specific open-source license is currently specified in this repository.
+All rights reserved.
 
-If you intend to make the repository reusable by others, consider adding an appropriate `LICENSE` file.
+This repository is provided for academic and research reference purposes only.
+The source code may not be copied, modified, redistributed, sublicensed,
+or incorporated into other projects without prior written permission from
+the copyright holders.
+
+Third-party datasets, pretrained models, libraries, and other external
+components used in this project are subject to their respective licenses
+and terms.
